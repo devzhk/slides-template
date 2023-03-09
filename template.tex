@@ -1,0 +1,35 @@
+\documentclass{beamer}
+\usetheme{metropolis}           % Use metropolis theme
+\input{mathcommand.tex}
+\title{A minimal example}
+\date{\today}
+\author{Hongkai}
+\institute{Blue planet in the Milky Way}
+\begin{document}
+  \maketitle
+  \section{First Section}
+  \begin{frame}{Figures}
+    Example of figure. 
+    \begin{figure}
+      \centering
+      \includegraphics[width=0.8\textwidth]{figs/nightsky.jpg}
+      \caption{Shot at Tunnel View, 2022.}
+    \end{figure}
+  \end{frame}
+  \section{Matrix derivative}
+  \begin{frame}
+    \begin{itemize}
+      \item $\rvx$: random vector
+      \item $\E$: expection
+      \item $\rmA$: random matrix
+      \item $\vv$: vector
+      \item $\sA$: set 
+      \item $\KL$: KL divergence
+      \item $\Var$: variance
+      \item $\Cov$: covariance
+    \end{itemize}
+    \begin{equation}
+      \rvx_t = \int_{0}^{1} f(\rvx) \df t
+    \end{equation}
+  \end{frame}
+\end{document}
